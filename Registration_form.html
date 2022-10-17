@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row border border-dark">
+            <div class="p-5">
+                <div class="col-12">
+                    <h1 class="display-4">REGISTER HERE</h1>
+                    <form action="" class="was-validated">
+                        <div class="col-md-4">
+                            <label for="firstname" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstname" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="lastname" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastname" value="" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                              <span class="input-group-text" id="inputGroupPrepend">@</span>
+                              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                              <div class="invalid-feedback">
+                                Please choose a username.
+                              </div>
+                              <div class="valid-feedback">
+                                  Looks good
+                              </div>
+                            </div>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/bootstrap.min.js"></script>
+</html>
